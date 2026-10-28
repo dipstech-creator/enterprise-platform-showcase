@@ -28,7 +28,6 @@ Designed and built by **Dipti Murkar**, platform engineer (19+ years in distribu
 - [Features](#features)
 - [Tech stack](#tech-stack)
 - [Design decisions](#design-decisions)
-- [Screenshots and demo](#screenshots-and-demo)
 - [Contact](#contact)
 
 ---
@@ -444,19 +443,6 @@ Short records of the main choices and what they cost.
 **9. Cloud-agnostic Terraform modules**
 *Why:* the same platform has to run on AWS, Azure or on-prem Kubernetes without forks.
 *Trade-off:* fewer cloud-specific managed-service shortcuts.
-
----
-
-## Screenshots and demo
-
-<!-- Add images to docs/images/ and replace the placeholders below. Keep tenant names and data synthetic. -->
-
-| | |
-|---|---|
-| **Agent chat and task status**<br/>![Agent chat](docs/images/agent-chat.png) | **Human approval queue**<br/>![Approval queue](docs/images/approval-queue.png) |
-| **Workflow run with planner and specialists**<br/>![Workflow run](docs/images/workflow-run.png) | **Distributed trace in Grafana / Tempo**<br/>![Trace](docs/images/trace.png) |
-
-**Demo video:** *coming soon* <!-- link to a 2–3 minute walkthrough, e.g. YouTube or Loom -->
 
 ---
 
